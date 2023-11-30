@@ -1,0 +1,33 @@
+.movieContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    padding: 2em;
+}
+
+.imgContainer {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: top;
+
+}
+
+.movie-item > h2 {
+    text-overflow: ellipsis;
+    height: 1em;
+    width: 30vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.movie-item > p{
+    cursor:pointer
+
+}
